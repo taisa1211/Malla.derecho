@@ -1,110 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Malla Curricular de Derecho</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Malla Interactiva Derecho - Guardado Automático</title>
+<link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
-  <h1>Malla Curricular - Derecho (1º a 10º semestre)</h1>
-  <p>Haz clic sobre un ramo para ver créditos y prerrequisitos</p>
 
-  <h2>Primer Semestre</h2>
-  <div class="malla">
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Ninguno">Introducción al Derecho</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Ninguno">Historia del Derecho</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Ninguno">Instituciones Políticas y Derecho Constitucional Orgánico</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Ninguno">Derecho Romano</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Ninguno">Habilidades Comunicativas</div>
-  </div>
+<h2>Malla Interactiva Derecho 1° - 10° Semestre</h2>
 
-  <h2>Segundo Semestre</h2>
-  <div class="malla">
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Ninguno">Nociones de Economía</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Ninguno">Teoría de los Derechos y Acciones Constitucionales</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Ninguno">Fundamentos de Derecho Privado</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Ninguno">Interpretación y Argumentación</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Ninguno">Inglés I</div>
-  </div>
+<div id="malla-container"></div>
 
-  <h2>Tercer Semestre</h2>
-  <div class="malla">
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Teoría de los Derechos y Acciones Constitucionales">Derechos Fundamentales</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Fundamentos de Derecho Privado">Negocio Jurídico y Teoría General de las Obligaciones</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Ninguno">Derecho Procesal Parte General</div>
-    <div class="ramo" data-info="Créditos: 2 | Prerrequisitos: Ninguno">Pensamiento Crítico</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Inglés I">Inglés II</div>
-  </div>
+<script src="script.js"></script>
 
-  <h2>Cuarto Semestre</h2>
-  <div class="malla">
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Ninguno">Fundamentos del Derecho Comercial y Títulos de Crédito</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Instituciones Políticas y Derecho Constitucional Orgánico">Derecho Internacional Público</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Negocio Jurídico y Teoría General de las Obligaciones">Derecho de los Bienes</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Derecho Procesal Parte General">Normas Comunes a todo procedimiento</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Inglés II">Inglés III</div>
-  </div>
-
-  <h2>Quinto Semestre</h2>
-  <div class="malla">
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Derechos Fundamentales">Principios Fundamentales del Derecho Penal y de la Pena</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Instituciones Políticas y Derecho Constitucional Orgánico">Derecho Administrativo I</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Derecho de los Bienes">Cumplimiento e Incumplimiento de las Obligaciones Contractuales</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Normas Comunes a todo procedimiento">Procedimientos Declarativos</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Varios ramos aprobados previos">Seminario de Integración</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Inglés III">Inglés IV</div>
-  </div>
-
-  <h2>Sexto Semestre</h2>
-  <div class="malla">
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Ninguno">Derecho Societario</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Principios Fundamentales del Derecho Penal y de la Pena">Parte General del Derecho Penal</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Derecho Administrativo I">Derecho Administrativo II</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Cumplimiento e Incumplimiento de las Obligaciones Contractuales">Responsabilidad Extracontractual</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Ninguno">Derecho Laboral</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Procedimientos Declarativos">Ejecución y Recursos</div>
-  </div>
-
-  <h2>Séptimo Semestre</h2>
-  <div class="malla">
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Derecho Societario">Derecho Tributario</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Parte General del Derecho Penal">Parte Especial del Derecho Penal</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Cumplimiento e Incumplimiento de las Obligaciones Contractuales">Contratos</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Varios ramos aprobados previos">Destrezas de Asesoría Legal</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Parte General del Derecho Penal y Ejecución y Recursos">Derecho Procesal Penal</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Ninguno">Derecho, Innovación y Tecnología</div>
-  </div>
-
-  <h2>Octavo Semestre</h2>
-  <div class="malla">
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Destrezas de Asesoría Legal y Derecho Procesal Penal">Litigación Oral</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Ninguno">Ética Profesional</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Contratos">Derecho de Familia</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Ejecución y Recursos, Contratos y Destrezas de Asesoría Legal">Redacción Forense</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Contratos y Destrezas de Asesoría Legal">Negociación y Mediación</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Varios ramos previos">Seminario de Doctrina y Jurisprudencia</div>
-  </div>
-
-  <h2>Noveno Semestre</h2>
-  <div class="malla">
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Redacción Forense y Negociación y Mediación">Electivo I</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Seminario de Doctrina y Jurisprudencia">Seminario de Investigación</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Derecho de Familia">Derecho Sucesorio</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Varios ramos previos">Consultorio Jurídico I</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Derechos Fundamentales, Parte Especial del Derecho Penal y Derecho de Familia">Derecho, Género e Inclusión</div>
-  </div>
-
-  <h2>Décimo Semestre</h2>
-  <div class="malla">
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Electivo I">Electivo II</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Electivo I">Electivo III</div>
-    <div class="ramo" data-info="Créditos: 4 | Prerrequisitos: Electivo I">Electivo IV</div>
-    <div class="ramo" data-info="Créditos: 6 | Prerrequisitos: Derecho Sucesorio, Consultorio Jurídico I y Derecho, Género e Inclusión">Consultorio Jurídico II</div>
-    <div class="ramo" data-info="Créditos: 7 | Prerrequisitos: Seminario de Investigación, Electivo I, Derecho Sucesorio, Consultorio Jurídico I y Derecho, Género e Inclusión">Actividad Final de Graduación</div>
-  </div>
-
-  <div id="info-box" class="info-box"></div>
-  <script src="script.js"></script>
 </body>
 </html>
